@@ -1,0 +1,353 @@
+<!-- HTML: AdaptED Landing Page - Sección principal -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EverPlanApp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <!-- Logo y Marca -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/logo_sin_contorno.png" alt="Logo Búho" class="logo-buho me-2">
+                <span class="text-dark small fw-bold">EverPlanApp</span>
+            </a>
+
+            <!-- Botón al reducir el tamaño de la pantalla  -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" 
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Contenido colapsable -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto gap-lg-5 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#funcionalidades">Funcionalidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mision-vision">Misión y Visión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+                <div class="d-flex justify-content-center justify-content-lg-end align-items-center gap-2 mt-3 mt-lg-0">
+                    <a href="https://forms.gle/oSHN9YNKVDkxviJLA" target="_blank" class="btn btn-success">Inscríbete ya</a>
+                    <img src="img/login.png" alt="login" class="login">
+                </div>
+            </div>
+        </div>
+    </nav>
+            <!-- llamado a la accion -->
+    <section class="cta-section position-relative overflow-hidden">
+        <div class="aurora-bg"></div>
+        <div class="cta-content container text-center py-5">
+            <h2 class="fw-bold">¡Descarga ya nuestra demo!</h2>
+            <p class="mb-4">Queremos tu opinión. Tu experiencia nos importa.</p>
+            <img src="img/demo.png" alt="Logo demo" class="cta-logo mb-4" />
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+                <img src="img/google_play.png" alt="Google Play" height="50">
+                <img src="img/app_store.png" alt="App Store" height="50">
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero py-5 bg">
+    <div class="container">
+        <div class="row align-items-center">
+        <div class="col-md-6">
+            <h2 class="fw-bold">Una app para planificar tu día, organizar tareas y vivir a tu ritmo</h2>
+            <p>EverPlanApp es una app pensada para estudiantes neurodivergentes que les ayuda a organizar su estudio, las rutinas diarias y a desarrollar la independencia universitaria, todo en un espacio accesible y amigable.</p>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="img/portada.png" alt="Búho EverPlan" class="img-fluid" style="max-height: 300px;">
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Capacidades  -->
+    <section class="capacidad py-5 bg">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                    <div class="card-capacidad h-100">
+                        <img src="img/list-check.svg" alt="Gestión de tareas" class="mb-3" style="height: 50px;">
+                        <h5>Gestión de tareas</h5>
+                        <p>Planifica tus actividades y lleva un control visual todo el día.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                    <div class="card-capacidad h-100">
+                        <img src="img/calendar-check.svg" alt="Rutinas diarias" class="mb-3" style="height: 50px;">
+                        <h5>Rutinas diarias</h5>
+                        <p>Crea rutinas para estructurar tu día a día.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                    <div class="card-capacidad h-100">
+                        <img src="img/lightbulb.svg" alt="Recomendaciones" class="mb-3" style="height: 50px;">
+                        <h5>Recomendaciones</h5>
+                        <p>Recibe sugerencias adaptadas por tus tareas y estado.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                    <div class="card-capacidad h-100">
+                        <img src="img/emoji-smile.svg" alt="Autorregulación" class="mb-3" style="height: 50px;">
+                        <h5>Autorregulación</h5>
+                        <p>Herramientas que te ayudan a mejorar tu bienestar diario.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- funcionalidades -->
+<section id="funcionalidades" class="py-5" style="background-color: #E6EDF0;">
+    <div class="container text-center">
+        <h2 class="mb-4 fw-bold">Funcionalidades Clave de EverPlanApp</h2>
+
+        <div id="carouselFunciones" class="carousel slide position-relative" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                
+                <!-- Funcionalidad 1 -->
+                <div class="carousel-item active">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-5">
+                            <img src="img/celular-removebg-preview.png" class="img-fluid" alt="Organización Académica Simplificada">
+                        </div>
+                        <div class="col-md-6 text-start">
+                            <div class="text-content">
+                                <h4 class="fw-bold">Organización Académica Simplificada</h4>
+                                <p>Diseñada para eliminar el caos de las agendas tradicionales, esta funcionalidad permite a los estudiantes autistas estructurar su día de forma clara y visual.</p>
+                                <ul>
+                                    <li><strong>Agenda Visual:</strong> uso de pictogramas y colores personalizables para mayor comprensión.</li>
+                                    <li><strong>Checklist de subtareas:</strong> cada actividad puede dividirse en pasos simples.</li>
+                                    <li><strong>Recordatorios Silenciosos:</strong> opciones como vibración o animaciones suaves que evitan la sobreestimulación.</li>
+                                    <li><strong>Vista tipo calendario:</strong> rutinas divididas en bloques (mañana – tarde – noche).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Funcionalidad 2 -->
+                <div class="carousel-item">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-5">
+                            <img src="img/celular-removebg-preview.png" class="img-fluid" alt="Regulación Sensorial y Emocional">
+                        </div>
+                        <div class="col-md-6 text-start">
+                            <div class="text-content">
+                                <h4 class="fw-bold">Regulación Sensorial y Emocional</h4>
+                                <p>Esta funcionalidad está pensada para ayudar a los usuarios a reconocer y gestionar sus emociones en entornos académicos exigentes.</p>
+                                <ul>
+                                    <li><strong>Panel Emocional Interactivo:</strong> selección rápida de estados de ánimo con íconos amigables.</li>
+                                    <li><strong>Herramientas de Autorregulación:</strong> sonidos relajantes, ejercicios de respiración y Pomodoro adaptado con pausas sensoriales.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Funcionalidad 3 -->
+                <div class="carousel-item">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-5">
+                            <img src="img/celular-removebg-preview.png" class="img-fluid" alt="Aprendizaje Personalizado y Adaptativo">
+                        </div>
+                        <div class="col-md-6 text-start">
+                            <div class="text-content">
+                                <h4 class="fw-bold">Aprendizaje Personalizado y Adaptativo</h4>
+                                <p>La aplicación no es estática: se adapta al usuario para optimizar su experiencia de estudio y aprendizaje continuo.</p>
+                                <ul>
+                                    <li><strong>Test Inicial:</strong> detecta el estilo de aprendizaje del usuario (visual, auditivo, kinestésico).</li>
+                                    <li><strong>Recomendaciones Inteligentes:</strong> sugiere técnicas, horarios y rutinas según el perfil.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                    <!-- Controles del carrusel -->
+            <button class="carousel-control-prev position-absolute top-50 start-0 translate-middle-y" type="button" data-bs-target="#carouselFunciones" data-bs-slide="prev" style="z-index: 10;">
+                <span class="carousel-control-prev-icon custom-carousel-icon"></span>
+            </button>
+            <button class="carousel-control-next position-absolute top-50 end-0 translate-middle-y" type="button" data-bs-target="#carouselFunciones" data-bs-slide="next" style="z-index: 10;">
+                <span class="carousel-control-next-icon custom-carousel-icon"></span>
+            </button>
+    </div>
+</section>
+
+    <!-- mision y vision -->
+    <section id="mision-vision" class="py-5" >
+    <div class="container">
+        <div class="row align-items-center">
+        <!-- Misión -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+            <div class="p-4 bg-mision shadow rounded-4">
+                <i class="bi bi-bullseye text-primary fs-1 mb-3"></i>
+                <h3 class="text-primary">Misión</h3>
+                <p class="mb-0">
+                    Nuestra misión es brindar una plataforma inclusiva y accesible donde estudiantes neurodivergentes puedan aprender a su propio ritmo, conectándose con docentes capacitados que entienden y respetan sus formas de aprendizaje.
+                </p>
+            </div>
+        </div>
+
+        <!-- Visión -->
+        <div class="col-md-6 mb-4" data-aos="fade-left">
+            <div class="p-4 bg-vision shadow rounded-4">
+                <i class="bi bi-eye text-success fs-1 mb-3"></i>
+                <h3 class="text-success">Visión</h3>
+                <p class="mb-0">
+                    Aspiramos a convertirnos en la plataforma educativa de referencia para el aprendizaje inclusivo en Latinoamérica, aliándonos con universidades y docentes que compartan nuestra pasión por una educación más justa, diversa y efectiva.
+                </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+        <!-- Sobre nosotros  -->
+    <section id="nosotros" class="container my-5" >
+        <h2 class="text-center mb-5">Conoce a Nuestro Equipo</h2>
+
+        <div class="row align-items-center mb-5" data-aos="fade-up">
+            <!-- Imagen -->
+            <div class="col-md-4 text-center">
+            <img src="img/seba.jpg" alt="Sebastián Gallardo" class="img-uniforme shadow">
+            </div>
+
+            <!-- Descripción -->
+            <div class="col-md-4">
+            <h4>Sebastián Gallardo</h4>
+            <p>Desarrollador Backend apasionado por la automatización y la eficiencia. Apunta a construir soluciones sólidas que respalden toda la lógica del sistema.</p>
+            </div>
+
+            <!-- Logo -->
+            <div class="col-md-4 text-center">
+            <img src="img/backend.png" alt="Logo Sebastián" class="logo-equipo">
+            </div>
+        </div>
+
+        <div class="row align-items-center mb-5 flex-row-reverse" data-aos="fade-up">
+            <!-- Imagen -->
+            <div class="col-md-4 text-center">
+                <img src="img/michelle.jpg" alt="Michelle Rocha" class="img-uniforme shadow">
+            </div>
+
+            <!-- Descripción -->
+            <div class="col-md-4">
+                <h4>Michelle Rocha</h4>
+                <p>Desarrolladora Frontend con mirada centrada en la accesibilidad y el diseño responsivo. Crea interfaces intuitivas para todos los usuarios.</p>
+            </div>
+
+            <!-- Logo -->
+            <div class="col-md-4 text-center">
+                <img src="img/frontend.png" alt="Logo Michelle" class="logo-equipo">
+            </div>
+        </div>
+
+        <div class="row align-items-center mb-5" data-aos="fade-up">
+            <!-- Imagen -->
+            <div class="col-md-4 text-center">
+                <img src="img/alan_2.jpg" alt="Alan Mac-kay" class="img-uniforme shadow">
+            </div>
+
+            <!-- Descripción -->
+            <div class="col-md-4">
+                <h4>Alan Mac-kay</h4>
+                <p>Ingeniero DevOps enfocado en la integración continua, automatización y despliegue eficiente. Se asegura de que todo funcione de forma fluida y confiable en cada entrega.</p>
+            </div>
+
+            <!-- Logo -->
+            <div class="col-md-4 text-center">
+                <img src="img/DevOps.png" alt="Logo Alan" class="logo-equipo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contenedor de contacto -->
+    <footer id = "contacto"  class="footer">
+        <div class="container">
+            <div class="row mb-4">
+                <!-- Logo y descripción -->
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <img src="img/pie_finalV2.png" alt="Logo" class="footer-logo">
+                    <p class="footer-text">EverPlanApp es tu aliado para estudiar con autonomía y bienestar.</p>
+                </div>
+
+                <!-- Políticas -->
+                <div class="col-md-4">
+                    <h5 class="footer-title">Políticas</h5>
+                    <ul class="footer-contact">
+                        <li><a href="#" class="footer-link-visual">Términos y Condiciones</a></li>
+                        <li><a href="#" class="footer-link-visual">Política de Privacidad</a></li>
+                        <li><a href="#" class="footer-link-visual">Política de Cookies</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contacto -->
+                <div class="col-md-4">
+                    <h5 class="footer-title">Contacto</h5>
+                    <ul class="footer-contact">
+                        <li>
+                            <a href="mailto:contacto@everplan.com" class="footer-link-visual">
+                                <i class="bi bi-envelope"></i> everplanapp.group@gmail.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Fila 2: Redes sociales centradas -->
+            <div class="row justify-content-center mb-3">
+                <div class="col-md-6 text-center">
+                    <h5 class="footer-title">Síguenos</h5>
+                    <div class="social-icons justify-content-center">
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon text-white mx-2"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="mailto:everplanapp.group@gmail.com" class="social-icon text-white mx-2"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pie final -->
+            <div class="footer-bottom">
+                <p>© 2025 EverPlanApp. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+        <!-- animaciones-->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        duration: 1200,
+        easing: 'ease-in-out',
+        once: false,
+        mirror: true,
+        offset: 100 // Disminuye el valor para que se active antes (default es 120)
+    });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
